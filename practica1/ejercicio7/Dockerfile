@@ -3,9 +3,9 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copiar el archivo de configuración
-COPY config.json .
+COPY config.json ./data/
 
 # Copiar el código
-COPY appp.py .
+COPY app.py .
 
 CMD ["python", "app.py"]
