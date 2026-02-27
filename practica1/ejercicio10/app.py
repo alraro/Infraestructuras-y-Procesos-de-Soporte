@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello World v1.0'
+    return 'Hello World v5.0'
 
 @app.route('/external')
 def external():
