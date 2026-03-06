@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: database
+    environment:
+      - POSTGRES_PASSWORD=secretpassword
+  web:
+    image: adminer:5
+    container_name: web-service
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
