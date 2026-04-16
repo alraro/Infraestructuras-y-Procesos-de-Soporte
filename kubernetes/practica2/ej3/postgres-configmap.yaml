@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+  namespace: ej3
+data:
+  POSTGRES_DB: mi-base-de-datos
+  POSTGRES_USER: myuser
