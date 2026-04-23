@@ -1,0 +1,3 @@
+[submodule "practica-6-infra"]
+	path = practica-6-infra
+	url = git@github.com:alraro/practica-6-infra.git
