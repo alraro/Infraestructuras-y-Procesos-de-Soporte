@@ -1,7 +1,7 @@
-# Mi primer proyecto Terraform
+# my-project
 
 Generado Automaticamente.
 
-Autor: Ana García
+Autor: Alfonso Ramos
 
 Entorno: DEV

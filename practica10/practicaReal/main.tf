@@ -9,5 +9,5 @@ terraform {
 
 resource "local_file" "readme" {
   filename = "${path.module}/output/README.md"
-  content  = "# Mi primer proyecto Terraform\n\nGenerado Automaticamente.\n\nAutor: ${var.author}\n\nEntorno: ${upper(var.environment)}"
+  content  = "# ${var.project_name}\n\nGenerado Automaticamente.\n\nAutor: ${var.author}\n\nEntorno: ${upper(var.environment)}"
 }
