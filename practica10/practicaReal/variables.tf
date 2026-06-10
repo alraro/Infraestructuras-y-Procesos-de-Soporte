@@ -1,17 +1,5 @@
-variable "project_name" {
+variable "projects_base_dir" {
   type        = string
-  description = "Nombre del proyecto"
-  default     = "my-project"
+  description = "Ruta de todos los proyectos generados"
+  default     = "./projects"
 }
-
-variable "author" {
-  type        = string
-  description = "Nombre del autor o autora"
-}
-
-variable "environment" {
-  type        = string
-  description = "Entorno de despliegue"
-  default     = "dev"
-}
-

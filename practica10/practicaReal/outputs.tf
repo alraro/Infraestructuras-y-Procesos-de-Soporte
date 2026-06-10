@@ -1,5 +1,7 @@
+output "backend-project-path" {
+  value = module.backend-api.project_path
+}
 
-output "readme_path" {
-  description = "Ruta del archivo"
-  value       = local_file.readme.filename
+output "frontend-project_path" {
+  value = module.frontend-app.project_path
 }
