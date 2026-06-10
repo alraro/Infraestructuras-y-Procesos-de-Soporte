@@ -1,0 +1,31 @@
+.terraform/
+
+# Archivos de estado local
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Archivos de estado generados por entornos o workspaces
+crash.log
+crash.*.log
+
+# Archivos de variables de configuración (comunes para secretos)
+*.tfvars
+*.tfvars.json
+
+# Exclusión específica para archivos de variables por entorno
+*.local.tfvars
+
+# Configuración de la CLI de Terraform
+.terraformrc
+terraform.rc
+
+# Archivos de override (modificaciones locales)
+*_override.tf
+*_override.tf.json
+
+# Terragrunt
+.terragrunt-cache/
+
+# TFLint
+.tflint.hcl
